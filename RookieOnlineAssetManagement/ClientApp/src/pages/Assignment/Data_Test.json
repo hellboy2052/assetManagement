@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "assetCode": "LA100002",
+    "assetName": "Laptop Lenovo ThinkPad T440P",
+    "assignedTo": "hungtv1",
+    "assignedBy": "binhnv",
+    "assignedDate": "1999-06-20",
+    "state": "Accepted"
+  },
+  {
+    "id": 2,
+    "assetCode": "LA100002",
+    "assetName": "Laptop Lenovo ThinkPad T440P",
+    "assignedTo": "hungtv1",
+    "assignedBy": "binhnv",
+    "assignedDate": "1999-06-20",
+    "state": "Waiting for acceptance"
+  },
+  {
+    "id": 3,
+    "assetCode": "LA100002",
+    "assetName": "Laptop Lenovo ThinkPad T440P",
+    "assignedTo": "hungtv1",
+    "assignedBy": "binhnv",
+    "assignedDate": "1999-06-20",
+    "state": "Accepted"
+  },
+  {
+    "id": 4,
+    "assetCode": "LA100002",
+    "assetName": "Laptop Lenovo ThinkPad T440P",
+    "assignedTo": "hungtv1",
+    "assignedBy": "binhnv",
+    "assignedDate": "1999-06-20",
+    "state": "Accepted"
+  },
+  {
+    "id": 5,
+    "assetCode": "LA100002",
+    "assetName": "Laptop Lenovo ThinkPad T440P",
+    "assignedTo": "hungtv1",
+    "assignedBy": "binhnv",
+    "assignedDate": "1999-06-20",
+    "state": "Accepted"
+  }
+]

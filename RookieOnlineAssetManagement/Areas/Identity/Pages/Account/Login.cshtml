@@ -1,0 +1,58 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+}
+<div id="login">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div id="form_header">
+        <span>Welcome to Online Asset Management</span>
+    </div>
+    <div id="form_body" class="pb-5">
+        <form class=input_form method="post">
+            <div class="row login-form-field">
+                <span class="col-4">Username </span>
+                <input asp-for="Input.UserName" class="col-6" type="text" />
+            </div>
+            <div class="row login-form-field">
+                <span class="col-4">Password </span>
+                <input id="Password" asp-for="Input.Password" class="col-6" type="password" />
+                <i onclick="showPassword()" id="eye" class="fas fa-eye"></i>
+            </div>
+            <button type="submit" class="btn btn-danger button" disabled="disabled">Login</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+<partial name="_ValidationScriptsPartial" />
+<script>
+    function showPassword() {
+        var input = document.getElementById("Password");
+        if (input.getAttribute("type") === "password") {
+            input.setAttribute("type", "text");
+        } else {
+            input.setAttribute("type", "password");
+        }
+    }
+
+    $(document).ready(function () {
+        $('.login-form-field input').on('keyup', function () {
+            let empty = 0;
+
+            $('.login-form-field input').each(function () {
+                if($(this).val().length == 0){
+                    empty += 1;
+                }
+            });
+            if (empty !== 0) {
+                $('.button').attr('disabled', 'disabled');
+            }
+            else {
+                $('.button').attr('disabled', false);
+            }
+        });
+    });
+</script>
+}

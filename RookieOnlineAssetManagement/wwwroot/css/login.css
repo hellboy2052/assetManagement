@@ -1,0 +1,114 @@
+﻿#navbar {
+    background-color: rgba(207,35,56,1);
+/*    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+    width: 100%;
+    height: 72px;*/
+}
+
+.logo-image {
+    margin-left: 60px;
+    width: 39.13px;
+    height: 39.84px;
+}
+
+.nav-title {
+    margin-left: 13px;
+    color: rgba(250,250,250,1);
+    font-family: Segoe UI, Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.nav-container {
+    align-items: center;
+    justify-content: space-between;
+}
+
+#login {
+    position: absolute;
+    width: 25%;
+    height: 300px;
+    left: 37%;
+    top: 200.499px;
+    overflow: visible;
+}
+
+#form_header {
+    display: flex;
+    height: 40px;
+    background-color: rgba(239,241,245,1);
+    stroke: rgba(33,37,41,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+    font-family: Segoe UI, Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(207,35,56,1);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: solid 0.5px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+#form_body {
+    display: flex;
+    height: 160px;
+    background-color: rgba(250,252,252,1);
+    stroke: rgba(33,37,41,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+    font-family: Segoe UI, Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: solid 0.5px;
+    border-color: black;
+}
+
+.login-form-field {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.login-form-field input {
+    border-radius: 5px;
+    border: solid 0.2px;
+}
+
+#eye {
+    top: 6px;
+    left: -25px;
+    position: relative;
+}
+
+#eye:hover {
+    color: #00fcb6;
+    cursor: pointer;
+}
+
+.button {
+    position: absolute;
+    right: 40px;
+}
+
+.input_form {
+    position: relative;
+}

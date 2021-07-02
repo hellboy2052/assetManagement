@@ -1,0 +1,36 @@
+﻿.modal-header-userDetail {
+  border: 1px solid rgb(58, 58, 58);
+  border-radius: 7px;
+  overflow: hidden;
+  background-color: #e8e8e8;
+}
+
+.modal-body-userDetail {
+  border: 1px solid rgb(58, 58, 58);
+  background-color: #f8f8f8;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.modal-header-userDetail > .modal-title {
+  font-size: 18px;
+  color: #ff0000;
+  letter-spacing: 1px;
+  padding-left: 28px;
+}
+
+.modal-body-userDetail ul {
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 35px;
+  color: #494949;
+  letter-spacing: 0.5px;
+}
+
+.modal-userDetail {
+  display: flex;
+}
+
+.asset-detail {
+  width: 130%;
+}

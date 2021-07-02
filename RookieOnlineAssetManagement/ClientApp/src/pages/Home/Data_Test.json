@@ -1,0 +1,38 @@
+[
+  {
+    "assignmentId": "ASSIGNMENT1",
+    "assetCode": "LA100002",
+    "assetName": "Laptop Lenovo ThinkPad T440P",
+    "category": "Laptop",
+    "assignedTo": "hungtv1",
+    "assignedBy": "binhnv",
+    "assignedDate": "1999-06-20",
+    "state": "Accepted",
+    "specification": "abcdajckljclzjkzcxjklcz",
+    "note": "note note note note note note"
+  },
+  {
+    "assignmentId": "ASSIGNMENT2",
+    "assetCode": "LA100003",
+    "assetName": "Laptop Asus ThinkPad T440P",
+    "category": "Laptop",
+    "assignedTo": "hungtv1",
+    "assignedBy": "binhnv",
+    "assignedDate": "1999-06-20",
+    "state": "Accepted",
+    "specification": "abcdajckljclzjkzcxjklcz",
+    "note": "note note note note note note"
+  },
+  {
+    "assignmentId": "ASSIGNMENT3",
+    "assetCode": "LA100004",
+    "assetName": "Laptop MSI ThinkPad T440P",
+    "category": "Laptop",
+    "assignedTo": "hungtv1",
+    "assignedBy": "binhnv",
+    "assignedDate": "1999-06-20",
+    "state": "Waiting For Acceptance",
+    "specification": "abcdajckljclzjkzcxjklcz",
+    "note": "note note note note note note"
+  }
+]

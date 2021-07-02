@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page-title {
+  color: #ed1010;
+  font-weight: bold;
+}
+
+.disableButton {
+  pointer-events: none;
+}

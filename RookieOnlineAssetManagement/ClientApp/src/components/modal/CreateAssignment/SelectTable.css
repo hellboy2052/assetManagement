@@ -1,0 +1,12 @@
+.SelectHeader {
+    color: rgba(207,35,56,1);
+}
+
+.TableHeader {
+    align-items: center;
+}
+
+.SaveBtn {
+    margin-left: 350px;
+    margin-right: 10px;
+}

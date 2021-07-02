@@ -1,0 +1,36 @@
+﻿@using Microsoft.AspNetCore.Hosting
+@using Microsoft.AspNetCore.Mvc.ViewEngines
+@inject IWebHostEnvironment Environment
+@inject ICompositeViewEngine Engine
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - RookieOnlineAssetManagement</title>
+    <link rel="stylesheet" href="~/Identity/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Identity/css/site.css" />
+    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+    <header id="navbar">
+        <nav class="navbar navbar-login navbar-expand-sm navbar-light navbar-toggleable-sm border-bottom box-shadow mb-3">
+            <div class="nav-container">
+                <img class="logo-image" src="~/img/Logo_lk.png" alt="" />
+                <span class="nav-title">Online Asset Management</span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <script src="~/Identity/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/Identity/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Identity/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

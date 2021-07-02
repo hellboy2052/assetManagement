@@ -1,0 +1,10 @@
+#create-category-button {
+    position: absolute;
+    right: -60px;
+    top: 10px;
+	background-color: #fff;
+    background: white;
+	font-size: 20px;
+    padding-left: 5px;
+    color: green;
+}

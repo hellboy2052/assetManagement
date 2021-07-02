@@ -1,0 +1,38 @@
+[
+  {
+    "assetCode": "LA100002",
+    "assetName": "Laptop Lenovo ThinkPad T440P",
+    "category": "Laptop",
+    "installedDate": "1999-06-20T00:00:00",
+    "state": "Available",
+    "location": "HCM",
+    "specification": "Core i5, 8GB RAM, 750 GB HDD, Windows 8"
+  },
+  {
+    "assetCode": "LA100001",
+    "assetName": "Laptop Lenovo ThinkPad T440P",
+    "category": "Laptop",
+    "installedDate": "1999-06-20T00:00:00",
+    "state": "Assigned",
+    "location": "HCM",
+    "specification": "Core i5, 8GB RAM, 750 GB HDD, Windows 8"
+  },
+  {
+    "assetCode": "LA100000",
+    "assetName": "Laptop Lenovo ThinkPad T440P",
+    "category": "Laptop",
+    "installedDate": "1999-06-20T00:00:00",
+    "state": "Not Available",
+    "location": "HCM",
+    "specification": "Core i5, 8GB RAM, 750 GB HDD, Windows 8"
+  },
+  {
+    "assetCode": "LA100004",
+    "assetName": "Laptop Lenovo ThinkPad T440P",
+    "category": "Laptop",
+    "installedDate": "1999-06-20T00:00:00",
+    "state": "Available",
+    "location": "HCM",
+    "specification": "Core i5, 8GB RAM, 750 GB HDD, Windows 8"
+  }
+]
